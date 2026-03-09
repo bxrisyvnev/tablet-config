@@ -1,0 +1,16 @@
+# ignore everything
+*
+!.gitignore
+!BetterDiscord/
+!BetterDiscord/**
+!caelestia/
+!caelestia/**
+!hypr/
+!hypr/**
+!mako/
+!mako/**
+!nvim/init.lua
+!spicetify/
+!spicetify/**
+!yazi/
+!yazi/**

@@ -1,0 +1,10 @@
+{
+  "appearance": {
+    "transparency": {
+      "enabled": true,
+      "base": 0.75,
+      "layers": 0.4
+    }
+  }
+}
+

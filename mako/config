@@ -1,0 +1,12 @@
+# ~/.config/mako/config
+
+output=eDP-1
+
+anchor=top-right
+margin=5
+padding=5
+text-color=#ffffff
+background-color=#00000000
+border-size=0
+font=JetBrainsMono 12
+default-timeout=5000

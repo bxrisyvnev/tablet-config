@@ -1,0 +1,53 @@
+[mgr]
+cwd = { fg = "#33ccff" }
+
+[indicator]
+# Replaces old:
+#   [mgr] hovered
+#   [mgr] preview_hovered
+current = { fg = "#000000", bg = "#33ccff" }
+preview  = { fg = "#000000", bg = "#33ccff" }
+parent   = { fg = "#33ccff" }
+padding  = { open = "", close = "" }
+
+[filetype]
+rules = [
+  # Symlinks (must be paired with url or mime when using `is`)
+  { url = "*", is = "link", fg = "#f5c2e7" },
+
+  # Executables
+  { url = "*", is = "exec", fg = "#a6e3a1" },
+
+  # Directories
+  { url = "*/", fg = "#33ccff" },
+]
+
+[input]
+border   = { fg = "#33ccff" }
+title    = { fg = "#33ccff" }
+value    = { fg = "#33ccff" }
+selected = { fg = "#000000", bg = "#33ccff" }
+
+[mode]
+normal_main = { fg = "#000000", bg = "#33ccff", bold = true }
+normal_alt  = { fg = "#000000", bg = "#33ccff", bold = true }
+select_main = { fg = "#000000", bg = "#33ccff", bold = true }
+select_alt  = { fg = "#000000", bg = "#33ccff", bold = true }
+unset_main  = { fg = "#a6adc8", bg = "#11111b" }
+unset_alt   = { fg = "#a6adc8", bg = "#11111b" }
+
+[status]
+overall   = { fg = "#cdd6f4", bg = "#000000" }
+sep_left  = { open = "", close = "" }
+sep_right = { open = "", close = "" }
+
+perm_type  = { fg = "#ff9a76" }
+perm_read  = { fg = "#a6adc8" }
+perm_write = { fg = "#ffa6c9" }
+perm_exec  = { fg = "#a6e3a1" }
+perm_sep   = { fg = "#585b70" }
+
+progress_label  = { fg = "#cdd6f4", bg = "#1e1e2e" }
+progress_normal = { fg = "#1e1e2e", bg = "#ffa6c9" }
+progress_error  = { fg = "#1e1e2e", bg = "#ff9a76" }
+
