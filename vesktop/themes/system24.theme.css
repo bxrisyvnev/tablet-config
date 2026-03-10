@@ -108,7 +108,7 @@ body {
   --bg-1: rgba(0, 0, 0, 0.95);
   --bg-2: rgba(0, 0, 0, 0.95);
   --bg-3: rgba(0, 0, 0, 0.95);
-  --bg-4: rgba(0, 0, 0, 0.45);
+  --bg-4: rgba(0, 0, 0, 0.3);
   --hover: oklch(54% 0 0 / 0.1); /* channels and buttons when hovered */
   --active: oklch(
     54% 0 0 / 0.2
@@ -194,4 +194,37 @@ body {
   --purple-3: #33ccffee;
   --purple-4: #33ccffee;
   --purple-5: #33ccffee;
+}
+
+/* only change panel surface opacity on hover */
+.visual-refresh .guilds__5e434,
+.visual-refresh .panels__5e434,
+.visual-refresh .sidebarList__5e434,
+.visual-refresh .subtitleContainer_f75fb0,
+.visual-refresh .messagesWrapper__36d07,
+.visual-refresh .channelTextArea_f75fb0,
+.visual-refresh .content_f75fb0 > .membersWrap_c8ffbb,
+.visual-refresh .container_c8ffbb,
+.visual-refresh .container__133bf > .container__9293f,
+.visual-refresh .peopleColumn__133bf,
+.visual-refresh .nowPlayingColumn__133bf,
+.visual-refresh .container__01ae2 > .container__9293f,
+.visual-refresh .callContainer_cb9592 {
+  transition: background-color 0.2s ease;
+}
+
+.visual-refresh .guilds__5e434:hover,
+.visual-refresh .panels__5e434:hover,
+.visual-refresh .sidebarList__5e434:hover,
+.visual-refresh .subtitleContainer_f75fb0:hover,
+.visual-refresh .messagesWrapper__36d07:hover,
+.visual-refresh .channelTextArea_f75fb0:hover,
+.visual-refresh .content_f75fb0 > .membersWrap_c8ffbb:hover,
+.visual-refresh .container_c8ffbb:hover,
+.visual-refresh .container__133bf > .container__9293f:hover,
+.visual-refresh .peopleColumn__133bf:hover,
+.visual-refresh .nowPlayingColumn__133bf:hover,
+.visual-refresh .container__01ae2 > .container__9293f:hover,
+.visual-refresh .callContainer_cb9592:hover {
+  background-color: rgba(0, 0, 0, 0.65) !important;
 }
