@@ -108,7 +108,7 @@ body {
   --bg-1: rgba(0, 0, 0, 0.95);
   --bg-2: rgba(0, 0, 0, 0.95);
   --bg-3: rgba(0, 0, 0, 0.95);
-  --bg-4: rgba(0, 0, 0, 0.3);
+  --bg-4: none;
   --hover: oklch(54% 0 0 / 0.1); /* channels and buttons when hovered */
   --active: oklch(
     54% 0 0 / 0.2
@@ -211,6 +211,7 @@ body {
 .visual-refresh .container__01ae2 > .container__9293f,
 .visual-refresh .callContainer_cb9592 {
   transition: background-color 0.2s ease;
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .visual-refresh .guilds__5e434:hover,
